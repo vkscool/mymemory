@@ -6,7 +6,7 @@ import java.util.Map;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import com.mymemory.interfaces.Data;
-import com.mymemory.main.data.ValueData;
+import com.mymemory.main.data.RefData;
 
 public class ExampleData{
 	

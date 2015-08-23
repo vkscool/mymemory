@@ -11,8 +11,9 @@ public interface MyMemoryInterface {
 	
 	public void setReader(FileReader reader);
 	
+	public void setStoreProcesses(StoreProcesses storeProcesses);
+	
 	public void memorize(String key, String value) throws WriterException;
 	
 	public List<Data> searchInMemory() throws ReaderException;
-	
 }
