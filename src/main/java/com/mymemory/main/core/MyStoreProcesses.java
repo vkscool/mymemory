@@ -32,7 +32,7 @@ public class MyStoreProcesses extends StoreProcesses{
 	}
 
 	@Override
-	public static String getValForKey(String propFilename, String key, String defaultVal) {
+	public String getValForKey(String propFilename, String key, String defaultVal) {
 		String sVal = null;
 		try {
 			ResourceBundle bundle = getBundle(propFilename);
