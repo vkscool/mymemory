@@ -10,14 +10,16 @@ import com.mymemory.interfaces.Data;
 import com.mymemory.interfaces.FileReader;
 import com.mymemory.interfaces.FileWriter;
 import com.mymemory.interfaces.MyMemoryInterface;
+import com.mymemory.interfaces.StoreProcesses;
 import com.mymemory.main.core.DataImpl;
 import com.mymemory.main.data.MemoryData;
-import com.mymemory.main.data.ValueData;
+import com.mymemory.main.data.RefData;
 
 public class MyMemory implements MyMemoryInterface{
 
 	FileWriter writer;
 	FileReader reader;
+	StoreProcesses storeProcesses;
 	
 	@Override
 	public void setWriter(FileWriter writer) {
@@ -28,18 +30,20 @@ public class MyMemory implements MyMemoryInterface{
 	public void setReader(FileReader reader) {
 		this.reader = reader;
 	}
-	
+
+	@Override
+	public void setStoreProcesses(StoreProcesses storeProcesses) {
+		this.storeProcesses = storeProcesses;
+	}
+
 	@Override
 	public void memorize(String key, String value) throws WriterException {
 		MemoryData d = new MemoryData();
 		d.setKey(key);
 		d.setHits(0);
 		d.addLastAccessed(new Timestamp(new Date().getTime()).toString());
-		ValueData vd = new ValueData();
-		vd.setHits(0);
-		vd.setData(value);
-		vd.addLastAccessed(new Timestamp(new Date().getTime()).toString());
-		d.addData(vd);
+		RefData vd = new RefData();
+		
 		Data<MemoryData> di = new DataImpl<MemoryData>();
 		di.setObject(d);
 	}

@@ -12,7 +12,26 @@ public class MemoryData{
 	private String key;
 	private int hits;
 	private ArrayList<String> lastaccessed;
-	private ArrayList<ValueData> value;
+	private ArrayList<RefData> in;
+	private ArrayList<RefData> mapped;
+	
+	public MemoryData(){
+		super();
+	}
+	
+	public void addIn(RefData s){
+		if(in==null){
+			in = new ArrayList<RefData>();
+		}
+		in.add(s);
+	}
+	
+	public void addMapped(RefData s){
+		if(mapped==null){
+			mapped = new ArrayList<RefData>();
+		}
+		mapped.add(s);
+	}
 	
 	public void addLastAccessed(String s){
 		if(lastaccessed==null){
@@ -21,15 +40,20 @@ public class MemoryData{
 		lastaccessed.add(s);
 	}
 	
-	public void addData(ValueData s){
-		if(value==null){
-			value = new ArrayList<ValueData>();
-		}
-		value.add(s);
+	public ArrayList<RefData> getIn() {
+		return in;
 	}
-	
-	public MemoryData(){
-		super();
+
+	public void setIn(ArrayList<RefData> in) {
+		this.in = in;
+	}
+
+	public ArrayList<RefData> getMapped() {
+		return mapped;
+	}
+
+	public void setMapped(ArrayList<RefData> mapped) {
+		this.mapped = mapped;
 	}
 
 	public String getKey() {
@@ -55,33 +79,4 @@ public class MemoryData{
 	public void setLastaccessed(ArrayList<String> lastaccessed) {
 		this.lastaccessed = lastaccessed;
 	}
-
-	public ArrayList<ValueData> getValue() {
-		return value;
-	}
-
-	public void setValue(ArrayList<ValueData> value) {
-		this.value = value;
-	}
-
-	/*@Override
-	public String toString() {
-		return getDataAsString();
-	}
-
-	@Override
-	public String getDataAsString() {
-		ObjectMapper om = new ObjectMapper();
-		try{
-			return om.writeValueAsString(this);
-		}catch(Exception e){
-			System.out.println("Exception in converting to json "+e);
-		}
-		return null;
-	}
-
-	@Override
-	public MemoryData getDataAsObject() {
-		return this;
-	}*/
 }
