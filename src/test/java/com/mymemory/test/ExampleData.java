@@ -1,12 +1,6 @@
 package com.mymemory.test;
 
 import java.util.ArrayList;
-import java.util.Map;
-
-import org.codehaus.jackson.map.ObjectMapper;
-
-import com.mymemory.interfaces.Data;
-import com.mymemory.main.data.RefData;
 
 public class ExampleData{
 	

@@ -1,9 +1,189 @@
-2015-08-23 12:43:58,119 DEBUG c.m.m.InvokerClass [main] created the project setup
-2015-08-23 12:43:58,122 DEBUG c.m.m.InvokerClass [main] Everything iis set move on
-2015-08-23 12:43:58,346 DEBUG c.m.m.InvokerClass [main] Now moving on
-2015-08-23 12:44:21,491 DEBUG c.m.m.InvokerClass [main] created the project setup
-2015-08-23 12:44:21,493 DEBUG c.m.m.InvokerClass [main] Everything iis set move on
-2015-08-23 12:44:21,721 DEBUG c.m.m.InvokerClass [main] Now moving on
-2015-08-23 15:32:17,207 DEBUG c.m.m.InvokerClass [main] created the project setup
-2015-08-23 15:32:17,224 DEBUG c.m.m.InvokerClass [main] Everything iis set move on
-2015-08-23 15:32:17,521 DEBUG c.m.m.InvokerClass [main] Now moving on
+2015-08-25 14:26:27,726 DEBUG c.m.m.c.MyStoreProcesses [main] File path /conf/griff/resources
+2015-08-25 14:26:27,762 DEBUG c.m.m.c.MyStoreProcesses [main] Just Trying to get the property 
+2015-08-25 14:26:27,763 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-, Value:-null
+2015-08-25 14:45:59,606 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 14:45:59,609 DEBUG c.m.m.c.MyStoreProcesses [main] Just Trying to get the property 
+2015-08-25 14:45:59,610 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-, Value:-null
+2015-08-25 14:46:48,975 DEBUG c.m.m.c.MyStoreProcesses [main] File path Resources/path
+2015-08-25 14:46:48,979 DEBUG c.m.m.c.MyStoreProcesses [main] Just Trying to get the property 
+2015-08-25 14:46:48,980 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-, Value:-null
+2015-08-25 14:55:12,453 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 14:55:12,457 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes//configuration.properties
+2015-08-25 14:55:12,458 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-configuration
+2015-08-25 14:55:12,458 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
+2015-08-25 14:55:12,458 INFO c.m.m.c.MyStoreProcesses [main] default
+2015-08-25 14:56:40,219 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 14:56:40,223 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/resources/configuration.properties
+2015-08-25 14:56:40,223 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-resources/configuration
+2015-08-25 14:56:40,224 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
+2015-08-25 14:56:40,224 INFO c.m.m.c.MyStoreProcesses [main] default
+2015-08-25 14:57:06,864 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 14:57:06,867 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/resources/configuration.properties
+2015-08-25 14:57:06,868 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-resources/configuration
+2015-08-25 14:57:06,869 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
+2015-08-25 14:57:06,869 INFO c.m.m.c.MyStoreProcesses [main] default
+2015-08-25 15:01:14,573 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:01:14,575 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/resources/configuration.properties
+2015-08-25 15:01:14,576 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-resources/configurationjava.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\resources\configuration.properties (The system cannot find the path specified)
+2015-08-25 15:01:14,576 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
+2015-08-25 15:01:14,576 INFO c.m.m.c.MyStoreProcesses [main] default
+2015-08-25 15:03:36,886 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:03:36,888 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-25 15:03:36,891 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-500kb
+2015-08-25 15:03:36,891 INFO c.m.m.c.MyStoreProcesses [main] 500kb
+2015-08-25 15:09:44,636 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:09:44,638 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-25 15:09:44,639 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-500kb
+2015-08-25 15:09:44,639 INFO c.m.m.c.MyStoreProcesses [main] 500kb
+2015-08-25 15:09:44,639 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:09:44,639 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-fileSuffix,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key fileSuffix
+2015-08-25 15:09:44,639 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mym
+2015-08-25 15:09:44,640 INFO c.m.m.c.MyStoreProcesses [main] mym
+2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:09:44,640 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-debugMode,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key debugMode
+2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-true
+2015-08-25 15:09:44,640 INFO c.m.m.c.MyStoreProcesses [main] true
+2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-500kb
+2015-08-25 15:09:44,640 INFO c.m.m.c.MyStoreProcesses [main] 500kb
+2015-08-25 15:10:38,624 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:10:38,626 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-25 15:10:38,628 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:10:38,628 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:10:38,628 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:10:38,628 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-
+2015-08-25 15:10:38,628 INFO c.m.m.c.MyStoreProcesses [main] 
+2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
+2015-08-25 15:10:38,629 INFO c.m.m.c.MyStoreProcesses [main] false
+2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:10:38,629 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:13:42,781 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:13:42,783 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for D:/Workspace_own/mymemory/target/classes/configuration.properties
+2015-08-25 15:13:42,783 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:13:42,784 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mymemory
+2015-08-25 15:13:42,784 INFO c.m.m.c.MyStoreProcesses [main] mymemory
+2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
+2015-08-25 15:13:42,784 INFO c.m.m.c.MyStoreProcesses [main] false
+2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:13:42,785 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:14:13,381 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:14:13,383 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-25 15:14:13,383 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:14:13,383 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:14:13,383 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
+2015-08-25 15:14:13,384 INFO c.m.m.c.MyStoreProcesses [main] false
+2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for D:/Workspace_own/mymemory/target/classes/configuration.properties
+2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mymemory
+2015-08-25 15:14:13,384 INFO c.m.m.c.MyStoreProcesses [main] mymemory
+2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:14:13,385 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:45:08,242 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:45:08,244 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-25 15:45:08,244 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:45:08,244 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-25 15:45:08,244 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
+2015-08-25 15:45:08,245 INFO c.m.m.c.MyStoreProcesses [main] false
+2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for D:/Workspace_own/mymemory/target/classes/configuration.properties
+2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mymemory
+2015-08-25 15:45:08,246 INFO c.m.m.c.MyStoreProcesses [main] mymemory
+2015-08-25 15:45:08,246 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
+2015-08-25 15:45:08,246 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-25 15:45:08,246 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-26 10:44:08,639 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:44:08,639 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 10:44:08,639 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
+2015-08-26 10:44:08,639 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 10:44:08,639 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 10:44:56,921 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:44:56,921 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 10:44:56,921 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
+2015-08-26 10:44:56,921 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
+2015-08-26 10:44:56,921 INFO c.m.m.c.MyStoreProcesses [main] 512000
+2015-08-26 10:45:11,396 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:45:11,396 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 10:45:11,396 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
+2015-08-26 10:45:11,396 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 10:45:11,396 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 10:45:47,456 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:45:47,456 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration2.properties
+2015-08-26 10:45:47,466 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configuration2java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\configuration2.properties (The system cannot find the file specified)
+2015-08-26 10:45:47,466 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 10:45:47,466 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 10:46:26,758 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:46:26,758 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 10:46:26,758 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
+2015-08-26 10:46:26,758 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 10:46:26,768 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 10:48:07,988 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:48:07,988 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 10:48:07,998 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
+2015-08-26 10:48:07,998 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-null
+2015-08-26 10:48:07,998 INFO c.m.m.c.MyStoreProcesses [main] null
+2015-08-26 10:48:23,497 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 10:48:23,497 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration2.properties
+2015-08-26 10:48:23,497 WARN c.m.m.c.MyStoreProcesses [main] configuration2 file Not Foundjava.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\configuration2.properties (The system cannot find the file specified)
+2015-08-26 10:48:23,497 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 10:48:23,497 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 11:01:31,459 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:01:31,459 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 11:01:31,459 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
+2015-08-26 11:01:31,459 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 11:01:31,459 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 11:01:40,490 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:01:40,490 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 11:01:40,490 INFO c.m.m.c.MyStoreProcesses [main] sVal 1024
+2015-08-26 11:01:40,490 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
+2015-08-26 11:01:40,490 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 11:03:34,335 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:03:34,335 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 11:03:34,335 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize3,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize3
+2015-08-26 11:03:34,345 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize3, Value:-1024
+2015-08-26 11:03:34,345 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 11:04:14,533 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:04:14,533 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 11:04:14,533 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize5,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize5
+2015-08-26 11:04:14,543 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize5, Value:-1024
+2015-08-26 11:04:14,543 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 11:05:32,325 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:05:32,325 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 11:05:32,325 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize
+2015-08-26 11:05:32,325 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-1024
+2015-08-26 11:05:32,325 INFO c.m.m.c.MyStoreProcesses [main] 1024
+2015-08-26 11:06:09,409 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:06:09,419 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
+2015-08-26 11:06:09,419 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-fileSuffix,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key fileSuffix
+2015-08-26 11:06:09,419 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mmy
+2015-08-26 11:06:09,419 INFO c.m.m.c.MyStoreProcesses [main] mmy
+2015-08-26 11:07:41,393 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:07:41,393 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/filestore.properties
+2015-08-26 11:07:41,393 WARN c.m.m.c.MyStoreProcesses [main] filestore file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\filestore.properties (The system cannot find the file specified)
+2015-08-26 11:07:41,393 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetFiles, Value:-[]
+2015-08-26 11:07:41,393 INFO c.m.m.c.MyStoreProcesses [main] []
+2015-08-26 11:20:34,935 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:20:34,935 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/filestore.properties
+2015-08-26 11:20:34,935 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-wordFiles,from prop file-filestorejava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key wordFiles
+2015-08-26 11:20:34,935 ERROR c.m.m.c.MyStoreProcesses [main] Writer is Not Set : Use setFileWriter Method to set Writer
+2015-08-26 11:20:34,935 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-wordFiles, Value:-[]
+2015-08-26 11:20:34,935 INFO c.m.m.c.MyStoreProcesses [main] []
+2015-08-26 11:21:10,839 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-08-26 11:21:10,840 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/filestore.properties
+2015-08-26 11:21:10,840 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-wordFiles,from prop file-filestorejava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key wordFiles
+2015-08-26 11:21:10,840 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-wordFiles, Value:-[]
+2015-08-26 11:21:10,840 INFO c.m.m.c.MyStoreProcesses [main] []
+2015-08-26 11:29:37,205 DEBUG c.m.m.c.MyStoreProcesses [main] ALPHABET
+2015-08-26 11:29:49,394 DEBUG c.m.m.c.MyStoreProcesses [main] WORD
+2015-08-26 11:29:59,903 DEBUG c.m.m.c.MyStoreProcesses [main] SENTENCE
+2015-08-26 11:30:10,901 DEBUG c.m.m.c.MyStoreProcesses [main] SENTENCE
+2015-08-26 11:30:20,511 DEBUG c.m.m.c.MyStoreProcesses [main] WORD
+2015-08-26 11:30:28,205 DEBUG c.m.m.c.MyStoreProcesses [main] ALPHABET

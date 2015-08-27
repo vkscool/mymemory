@@ -26,4 +26,21 @@ public class MyFileWriter implements FileWriter {
 		return 1;
 	}
 
+	
+	@Override
+	public int writeToFile(String filename, String s) throws WriterException {
+		if(filename==null || filename.isEmpty()){
+			throw new WriterException("Filename is Null OR Empty");
+		}
+		File f = new File(filename);
+		try(BufferedWriter br = new BufferedWriter(new java.io.FileWriter(f,true))){
+			br.write(s+System.lineSeparator());
+		}catch(IOException ioex){
+			throw new WriterException("Writting to a file is inturupted");
+		}catch(Exception ex){
+			throw new WriterException("Some Unknown Exception Occured While Writting to a file");
+		}
+		return 1;
+	}
+	
 }
