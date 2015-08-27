@@ -1,17 +1,9 @@
 package com.mymemory.test;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-import java.net.URL;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.mymemory.interfaces.Data;
 import com.mymemory.interfaces.StoreProcesses;
-import com.mymemory.main.core.DataImpl;
-import com.mymemory.main.core.MyFileWriter;
 import com.mymemory.main.core.MyStoreProcesses;
 
 public class TestJSON {
