@@ -1,9 +1,11 @@
 package com.mymemory.interfaces;
 
+import com.mymemory.exceptions.DependencyException;
+
 public interface StoreProcessesInterface {
 
-	public abstract RefValues storeData(String data);
-	public abstract String getFileName(FileNameType type);
+	public RefValues storeData(String data);
+	public String getFileName(FileNameType type) throws DependencyException;
 	public FileNameType getFileNameType(String data);
 	
 	interface RefValues{
@@ -20,8 +22,8 @@ public interface StoreProcessesInterface {
 	}
 	
 	enum Files{
-		CONFIGURATION("configuration.properties"),
-		FileStore("filestore.properties");
+		CONFIGURATION("configuration"),
+		FILESTORE("filestore");
 		private String name;
 		private Files(String name){
 			this.name = name;
