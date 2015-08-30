@@ -1,11 +1,12 @@
 package com.mymemory.interfaces;
 
 import com.mymemory.exceptions.DependencyException;
+import com.mymemory.exceptions.WriterException;
 
 public interface StoreProcessesInterface {
 
 	public RefValues storeData(String data);
-	public String getFileName(FileNameType type) throws DependencyException;
+	public String getFileName(FileNameType type) throws DependencyException, WriterException;
 	public FileNameType getFileNameType(String data);
 	
 	interface RefValues{

@@ -8,5 +8,7 @@ public interface FileWriter {
 	public int writeToFile(@NotNull String filename,Data data) throws WriterException;
 
 	public int writeToFile(String filename, String s) throws WriterException;
+
+	int writeToFile(String filename, String s, boolean flag) throws WriterException;
 	
 }

@@ -24,7 +24,7 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 	public static FileWriter f = null;
 	
 	public abstract RefValues storeData(String data);
-	public abstract String getFileName(FileNameType type) throws DependencyException;
+	public abstract String getFileName(FileNameType type) throws DependencyException, WriterException;
 
 	public final void setResourcePath(String path){
 		PROJECT_HOME = path;
@@ -83,6 +83,34 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 		}
 		logger.debug("Key:-" + key + ", Value:-" + sVal);
 		return sVal;
+	}
+	
+	public static int writeExsistingPropertyToFile(String propFilename, String key, String defaultVal){
+		try {
+			if(f==null){
+				logger.error("Writer is Not Set : Use setFileWriter Method to set Writer");
+				return 0;
+			}
+			//resourceMap.remove(key);
+			ResourceBundle bundle = getBundle(propFilename);
+			StringBuilder sb = new StringBuilder();
+			for(String k:bundle.keySet()){
+				sb.append(k);
+				sb.append("=");
+				if(k.equals(key))
+					sb.append(defaultVal);
+				else
+					sb.append(bundle.getString(k));
+				sb.append(System.lineSeparator());
+			}
+			logger.debug("all the property to store "+sb.toString());
+			f.writeToFile(PROJECT_HOME + propFilename + ".properties", sb.toString(), false);
+		} catch (WriterException e) {
+			logger.debug("Unable To Write to File "+propFilename+" : "+e);
+		} catch (IOException e) {
+			logger.debug("Unable To Write to File "+propFilename+" : "+e);
+		}
+		return 1;
 	}
 	
 	public static int writePropertyToFile(String propFilename, String key, String defaultVal){

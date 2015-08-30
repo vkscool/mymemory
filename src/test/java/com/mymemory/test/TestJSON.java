@@ -3,7 +3,11 @@ package com.mymemory.test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.mymemory.exceptions.DependencyException;
+import com.mymemory.exceptions.WriterException;
 import com.mymemory.interfaces.StoreProcesses;
+import com.mymemory.interfaces.StoreProcessesInterface;
+import com.mymemory.main.core.MyFileWriter;
 import com.mymemory.main.core.MyStoreProcesses;
 
 public class TestJSON {
@@ -49,9 +53,42 @@ public class TestJSON {
 		}*/
 		
 		
-		StoreProcesses sp = new MyStoreProcesses();
-		/*sp.setFileWriter(new MyFileWriter());
-		logger.info(sp.getValForKey("filestore", "wordFiles", "[]"));
+		//try {
+			logger.debug("Going to run the Store Process");
+			final StoreProcesses sp = new MyStoreProcesses();
+			sp.setFileWriter(new MyFileWriter());
+			new Thread(new Runnable() {
+				
+				@Override
+				public void run() {
+					int index = 0;
+					while(index++<5){
+						try {
+							logger.info("Returned name is "+sp.getFileName(StoreProcessesInterface.FileNameType.SENTENCE));
+						} catch (DependencyException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						} catch (WriterException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						try {
+							Thread.sleep(1000);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				}
+			}).start();
+		/*} catch (DependencyException e) {
+			logger.debug(e.getMessage());
+			e.printStackTrace();
+		} catch (WriterException e) {
+			logger.debug(e.getMessage());
+			e.printStackTrace();
+		}*/
+		/*logger.info(sp.getValForKey("filestore", "wordFiles", "[]"));
 		logger.info(sp.getValForKey("configuration", "debugMode", "true"));
 		sp.setResourcePath("D:/Workspace_own/mymemory/target/classes/");
 		logger.info(sp.getValForKey("configuration", "fileSuffix", "mym"));

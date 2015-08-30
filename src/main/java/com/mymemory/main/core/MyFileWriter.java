@@ -26,14 +26,22 @@ public class MyFileWriter implements FileWriter {
 		return 1;
 	}
 
-	
 	@Override
 	public int writeToFile(String filename, String s) throws WriterException {
+		return write(filename,s,true);
+	}
+	
+	@Override
+	public int writeToFile(String filename, String s, boolean flag) throws WriterException {
+		return write(filename,s,flag);
+	}
+	
+	private int write(String filename, String s, boolean flag) throws WriterException{
 		if(filename==null || filename.isEmpty()){
 			throw new WriterException("Filename is Null OR Empty");
 		}
 		File f = new File(filename);
-		try(BufferedWriter br = new BufferedWriter(new java.io.FileWriter(f,true))){
+		try(BufferedWriter br = new BufferedWriter(new java.io.FileWriter(f,flag))){
 			br.write(s+System.lineSeparator());
 		}catch(IOException ioex){
 			throw new WriterException("Writting to a file is inturupted");
@@ -42,5 +50,4 @@ public class MyFileWriter implements FileWriter {
 		}
 		return 1;
 	}
-	
 }
