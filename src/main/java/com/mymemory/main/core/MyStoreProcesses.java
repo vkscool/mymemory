@@ -15,11 +15,10 @@ import com.mymemory.exceptions.WriterException;
 import com.mymemory.interfaces.FileWriter;
 import com.mymemory.interfaces.StoreProcesses;
 
-import jdk.nashorn.internal.parser.JSONParser;
-
 public class MyStoreProcesses extends StoreProcesses{
 
 	private static final Logger logger = LogManager.getLogger(MyStoreProcesses.class);
+	private FileWriter ff;
 	
 	@Override
 	public RefValues storeData(String data) {
@@ -27,9 +26,8 @@ public class MyStoreProcesses extends StoreProcesses{
 		return null;
 	}
 	
-	@Override
 	public void setFileWriter(FileWriter ff){
-		super.setFileWriter(ff);
+		this.ff = ff;
 	}
 
 	@Override
@@ -61,7 +59,7 @@ public class MyStoreProcesses extends StoreProcesses{
 						filedata = new ArrayList<String>();
 					}
 					filedata.add(0,tostore);
-					writePropertyToFile(Files.FILESTORE.name(), proptype, mapper.writeValueAsString(filedata));
+					writeExsistingPropertyToFile(Files.FILESTORE.name(), proptype, mapper.writeValueAsString(filedata));
 					logger.debug("Successfully wrote new file property to filestore ");
 				}else{
 					logger.debug("Parsed data to Arraylist of size "+filedata.size());

@@ -56,7 +56,6 @@ public class TestJSON {
 		//try {
 			logger.debug("Going to run the Store Process");
 			final StoreProcesses sp = new MyStoreProcesses();
-			sp.setFileWriter(new MyFileWriter());
 			new Thread(new Runnable() {
 				
 				@Override
@@ -64,13 +63,11 @@ public class TestJSON {
 					int index = 0;
 					while(index++<5){
 						try {
-							logger.info("Returned name is "+sp.getFileName(StoreProcessesInterface.FileNameType.SENTENCE));
+							logger.info("Returned name is "+sp.getFileName(StoreProcessesInterface.FileNameType.WORD));
 						} catch (DependencyException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
+							
 						} catch (WriterException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
+							
 						}
 						try {
 							Thread.sleep(1000);

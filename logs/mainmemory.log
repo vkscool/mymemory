@@ -1,936 +1,354 @@
-<<<<<<< HEAD
-2015-08-23 12:43:58,119 DEBUG c.m.m.InvokerClass [main] created the project setup
-2015-08-23 12:43:58,122 DEBUG c.m.m.InvokerClass [main] Everything iis set move on
-2015-08-23 12:43:58,346 DEBUG c.m.m.InvokerClass [main] Now moving on
-2015-08-23 12:44:21,491 DEBUG c.m.m.InvokerClass [main] created the project setup
-2015-08-23 12:44:21,493 DEBUG c.m.m.InvokerClass [main] Everything iis set move on
-2015-08-23 12:44:21,721 DEBUG c.m.m.InvokerClass [main] Now moving on
-2015-08-23 15:32:17,207 DEBUG c.m.m.InvokerClass [main] created the project setup
-2015-08-23 15:32:17,224 DEBUG c.m.m.InvokerClass [main] Everything iis set move on
-2015-08-23 15:32:17,521 DEBUG c.m.m.InvokerClass [main] Now moving on
-=======
-2015-08-25 14:26:27,726 DEBUG c.m.m.c.MyStoreProcesses [main] File path /conf/griff/resources
-2015-08-25 14:26:27,762 DEBUG c.m.m.c.MyStoreProcesses [main] Just Trying to get the property 
-2015-08-25 14:26:27,763 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-, Value:-null
-2015-08-25 14:45:59,606 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 14:45:59,609 DEBUG c.m.m.c.MyStoreProcesses [main] Just Trying to get the property 
-2015-08-25 14:45:59,610 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-, Value:-null
-2015-08-25 14:46:48,975 DEBUG c.m.m.c.MyStoreProcesses [main] File path Resources/path
-2015-08-25 14:46:48,979 DEBUG c.m.m.c.MyStoreProcesses [main] Just Trying to get the property 
-2015-08-25 14:46:48,980 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-, Value:-null
-2015-08-25 14:55:12,453 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 14:55:12,457 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes//configuration.properties
-2015-08-25 14:55:12,458 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-configuration
-2015-08-25 14:55:12,458 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
-2015-08-25 14:55:12,458 INFO c.m.m.c.MyStoreProcesses [main] default
-2015-08-25 14:56:40,219 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 14:56:40,223 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/resources/configuration.properties
-2015-08-25 14:56:40,223 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-resources/configuration
-2015-08-25 14:56:40,224 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
-2015-08-25 14:56:40,224 INFO c.m.m.c.MyStoreProcesses [main] default
-2015-08-25 14:57:06,864 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 14:57:06,867 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/resources/configuration.properties
-2015-08-25 14:57:06,868 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-resources/configuration
-2015-08-25 14:57:06,869 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
-2015-08-25 14:57:06,869 INFO c.m.m.c.MyStoreProcesses [main] default
-2015-08-25 15:01:14,573 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:01:14,575 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/resources/configuration.properties
-2015-08-25 15:01:14,576 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-resources/configurationjava.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\resources\configuration.properties (The system cannot find the path specified)
-2015-08-25 15:01:14,576 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-default
-2015-08-25 15:01:14,576 INFO c.m.m.c.MyStoreProcesses [main] default
-2015-08-25 15:03:36,886 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:03:36,888 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-25 15:03:36,891 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-500kb
-2015-08-25 15:03:36,891 INFO c.m.m.c.MyStoreProcesses [main] 500kb
-2015-08-25 15:09:44,636 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:09:44,638 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-25 15:09:44,639 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-500kb
-2015-08-25 15:09:44,639 INFO c.m.m.c.MyStoreProcesses [main] 500kb
-2015-08-25 15:09:44,639 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:09:44,639 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-fileSuffix,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key fileSuffix
-2015-08-25 15:09:44,639 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mym
-2015-08-25 15:09:44,640 INFO c.m.m.c.MyStoreProcesses [main] mym
-2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:09:44,640 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-debugMode,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key debugMode
-2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-true
-2015-08-25 15:09:44,640 INFO c.m.m.c.MyStoreProcesses [main] true
-2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:09:44,640 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-500kb
-2015-08-25 15:09:44,640 INFO c.m.m.c.MyStoreProcesses [main] 500kb
-2015-08-25 15:10:38,624 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:10:38,626 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-25 15:10:38,628 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:10:38,628 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:10:38,628 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:10:38,628 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-
-2015-08-25 15:10:38,628 INFO c.m.m.c.MyStoreProcesses [main] 
-2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
-2015-08-25 15:10:38,629 INFO c.m.m.c.MyStoreProcesses [main] false
-2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:10:38,629 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:10:38,629 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:13:42,781 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:13:42,783 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for D:/Workspace_own/mymemory/target/classes/configuration.properties
-2015-08-25 15:13:42,783 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:13:42,784 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mymemory
-2015-08-25 15:13:42,784 INFO c.m.m.c.MyStoreProcesses [main] mymemory
-2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
-2015-08-25 15:13:42,784 INFO c.m.m.c.MyStoreProcesses [main] false
-2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:13:42,784 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:13:42,785 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:14:13,381 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:14:13,383 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-25 15:14:13,383 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:14:13,383 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:14:13,383 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
-2015-08-25 15:14:13,384 INFO c.m.m.c.MyStoreProcesses [main] false
-2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for D:/Workspace_own/mymemory/target/classes/configuration.properties
-2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mymemory
-2015-08-25 15:14:13,384 INFO c.m.m.c.MyStoreProcesses [main] mymemory
-2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:14:13,384 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:14:13,385 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:45:08,242 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:45:08,244 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-25 15:45:08,244 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:45:08,244 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-25 15:45:08,244 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-debugMode, Value:-false
-2015-08-25 15:45:08,245 INFO c.m.m.c.MyStoreProcesses [main] false
-2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for D:/Workspace_own/mymemory/target/classes/configuration.properties
-2015-08-25 15:45:08,245 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mymemory
-2015-08-25 15:45:08,246 INFO c.m.m.c.MyStoreProcesses [main] mymemory
-2015-08-25 15:45:08,246 DEBUG c.m.m.c.MyStoreProcesses [main] File path D:/Workspace_own/mymemory/target/classes/
-2015-08-25 15:45:08,246 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-25 15:45:08,246 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-26 10:44:08,639 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:44:08,639 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 10:44:08,639 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
-2015-08-26 10:44:08,639 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 10:44:08,639 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 10:44:56,921 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:44:56,921 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 10:44:56,921 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-26 10:44:56,921 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-26 10:44:56,921 INFO c.m.m.c.MyStoreProcesses [main] 512000
-2015-08-26 10:45:11,396 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:45:11,396 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 10:45:11,396 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
-2015-08-26 10:45:11,396 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 10:45:11,396 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 10:45:47,456 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:45:47,456 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration2.properties
-2015-08-26 10:45:47,466 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configuration2java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\configuration2.properties (The system cannot find the file specified)
-2015-08-26 10:45:47,466 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 10:45:47,466 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 10:46:26,758 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:46:26,758 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 10:46:26,758 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
-2015-08-26 10:46:26,758 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 10:46:26,768 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 10:48:07,988 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:48:07,988 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 10:48:07,998 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
-2015-08-26 10:48:07,998 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-null
-2015-08-26 10:48:07,998 INFO c.m.m.c.MyStoreProcesses [main] null
-2015-08-26 10:48:23,497 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 10:48:23,497 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration2.properties
-2015-08-26 10:48:23,497 WARN c.m.m.c.MyStoreProcesses [main] configuration2 file Not Foundjava.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\configuration2.properties (The system cannot find the file specified)
-2015-08-26 10:48:23,497 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 10:48:23,497 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 11:01:31,459 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:01:31,459 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 11:01:31,459 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize2,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize2
-2015-08-26 11:01:31,459 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 11:01:31,459 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 11:01:40,490 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:01:40,490 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 11:01:40,490 INFO c.m.m.c.MyStoreProcesses [main] sVal 1024
-2015-08-26 11:01:40,490 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize2, Value:-1024
-2015-08-26 11:01:40,490 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 11:03:34,335 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:03:34,335 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 11:03:34,335 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize3,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize3
-2015-08-26 11:03:34,345 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize3, Value:-1024
-2015-08-26 11:03:34,345 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 11:04:14,533 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:04:14,533 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 11:04:14,533 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize5,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize5
-2015-08-26 11:04:14,543 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize5, Value:-1024
-2015-08-26 11:04:14,543 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 11:05:32,325 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:05:32,325 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 11:05:32,325 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-maxFileSize,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key maxFileSize
-2015-08-26 11:05:32,325 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-1024
-2015-08-26 11:05:32,325 INFO c.m.m.c.MyStoreProcesses [main] 1024
-2015-08-26 11:06:09,409 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:06:09,419 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/configuration.properties
-2015-08-26 11:06:09,419 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-fileSuffix,from prop file-configurationjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key fileSuffix
-2015-08-26 11:06:09,419 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileSuffix, Value:-mmy
-2015-08-26 11:06:09,419 INFO c.m.m.c.MyStoreProcesses [main] mmy
-2015-08-26 11:07:41,393 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:07:41,393 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/filestore.properties
-2015-08-26 11:07:41,393 WARN c.m.m.c.MyStoreProcesses [main] filestore file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\filestore.properties (The system cannot find the file specified)
-2015-08-26 11:07:41,393 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetFiles, Value:-[]
-2015-08-26 11:07:41,393 INFO c.m.m.c.MyStoreProcesses [main] []
-2015-08-26 11:20:34,935 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:20:34,935 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/filestore.properties
-2015-08-26 11:20:34,935 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-wordFiles,from prop file-filestorejava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key wordFiles
-2015-08-26 11:20:34,935 ERROR c.m.m.c.MyStoreProcesses [main] Writer is Not Set : Use setFileWriter Method to set Writer
-2015-08-26 11:20:34,935 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-wordFiles, Value:-[]
-2015-08-26 11:20:34,935 INFO c.m.m.c.MyStoreProcesses [main] []
-2015-08-26 11:21:10,839 DEBUG c.m.m.c.MyStoreProcesses [main] File path /D:/Workspace_own/mymemory/target/test-classes/
-2015-08-26 11:21:10,840 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /D:/Workspace_own/mymemory/target/test-classes/filestore.properties
-2015-08-26 11:21:10,840 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-wordFiles,from prop file-filestorejava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key wordFiles
-2015-08-26 11:21:10,840 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-wordFiles, Value:-[]
-2015-08-26 11:21:10,840 INFO c.m.m.c.MyStoreProcesses [main] []
-2015-08-26 11:29:37,205 DEBUG c.m.m.c.MyStoreProcesses [main] ALPHABET
-2015-08-26 11:29:49,394 DEBUG c.m.m.c.MyStoreProcesses [main] WORD
-2015-08-26 11:29:59,903 DEBUG c.m.m.c.MyStoreProcesses [main] SENTENCE
-2015-08-26 11:30:10,901 DEBUG c.m.m.c.MyStoreProcesses [main] SENTENCE
-2015-08-26 11:30:20,511 DEBUG c.m.m.c.MyStoreProcesses [main] WORD
-2015-08-26 11:30:28,205 DEBUG c.m.m.c.MyStoreProcesses [main] ALPHABET
->>>>>>> branch 'mymemory1.0' of https://vkscool@github.com/vkscool/mymemory.git
-2015-08-30 20:36:34,978 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:36:35,002 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:36:35,003 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:36:35,005 WARN c.m.m.c.MyStoreProcesses [main] FILESTORE file Not Found java.io.FileNotFoundException: E:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
-2015-08-30 20:36:35,006 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-[]
-2015-08-30 20:36:35,007 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:36:35,007 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:36:35,007 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:36:35,008 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:36:35,008 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:36:35,008 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-fileNamePrefix,from prop file-CONFIGURATIONjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key fileNamePrefix
-2015-08-30 20:36:35,009 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:36:35,384 INFO c.m.m.c.MyStoreProcesses [main] s0
-2015-08-30 20:36:45,929 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:36:45,943 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:36:45,943 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:36:45,944 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440947195366"]
-2015-08-30 20:36:45,944 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|0|1|1440947195366"]
-2015-08-30 20:36:45,945 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:36:45,945 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:36:45,946 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:36:45,946 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:36:45,946 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:36:45,947 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-fileNamePrefix,from prop file-CONFIGURATIONjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key fileNamePrefix
-2015-08-30 20:36:45,950 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:36:46,262 INFO c.m.m.c.MyStoreProcesses [main] s
-2015-08-30 20:37:45,513 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:37:45,553 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:37:45,554 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:37:45,554 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440947195366"]
-2015-08-30 20:37:45,555 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|0|1|1440947195366"]
-2015-08-30 20:37:45,555 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:37:45,555 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:37:45,555 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:37:45,556 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:37:45,556 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:37:45,556 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 20:37:45,556 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:37:45,935 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s
-2015-08-30 20:39:11,301 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:39:11,355 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:39:11,356 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:39:11,357 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440947195366"]
-2015-08-30 20:39:11,358 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|0|1|1440947195366"]
-2015-08-30 20:39:11,358 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:39:11,358 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:39:11,359 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:39:11,359 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:39:11,359 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:39:11,359 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 20:39:11,359 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:39:11,700 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s
-2015-08-30 20:39:48,457 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:39:48,467 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:39:48,468 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:39:48,468 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|5123|1|1440947195366"]
-2015-08-30 20:39:48,468 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|5123|1|1440947195366"]
-2015-08-30 20:39:48,469 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:39:48,469 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:39:48,469 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:39:48,469 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:39:48,470 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:39:48,470 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 20:39:48,470 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:39:48,869 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s
-2015-08-30 20:55:50,243 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:55:50,254 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:55:50,255 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:55:50,256 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|5123|1|1440947195366"]
-2015-08-30 20:55:50,256 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|5123|1|1440947195366"]
-2015-08-30 20:55:50,256 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s0|5123|1|1440947195366"]
-2015-08-30 20:55:50,256 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:55:50,256 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:55:50,257 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:55:50,257 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:55:50,257 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:55:50,258 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 20:55:50,258 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:55:50,530 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 20:55:50,530 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|5123|1|1440947195366
-2015-08-30 20:55:50,531 DEBUG c.m.m.c.MyStoreProcesses [main] File Size is under the maxfilesize 0
-2015-08-30 20:55:50,531 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s
-2015-08-30 20:58:41,253 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 20:58:41,262 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:58:41,262 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 20:58:41,263 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|5123|1|1440947195366"]
-2015-08-30 20:58:41,263 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|5123|1|1440947195366"]
-2015-08-30 20:58:41,263 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s0|5123|1|1440947195366"]
-2015-08-30 20:58:41,263 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:58:41,263 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 20:58:41,264 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 20:58:41,264 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 20:58:41,264 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 20:58:41,265 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 20:58:41,265 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 20:58:41,563 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 20:58:41,564 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|5123|1|1440947195366
-2015-08-30 20:58:41,565 DEBUG c.m.m.c.MyStoreProcesses [main] After split [Ljava.lang.String;@6e2c9341
-2015-08-30 20:58:41,565 DEBUG c.m.m.c.MyStoreProcesses [main] File Size is under the maxfilesize 0
-2015-08-30 20:58:41,565 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s
-2015-08-30 21:00:14,492 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:00:14,502 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:00:14,502 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:00:14,503 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|5123|1|1440947195366"]
-2015-08-30 21:00:14,503 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|5123|1|1440947195366"]
-2015-08-30 21:00:14,503 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s0|5123|1|1440947195366"]
-2015-08-30 21:00:14,503 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:00:14,504 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:00:14,504 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 21:00:14,505 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 21:00:14,505 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:00:14,505 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:00:14,505 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:00:14,808 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:00:14,809 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|5123|1|1440947195366
-2015-08-30 21:00:14,810 DEBUG c.m.m.c.MyStoreProcesses [main] After split 23
-2015-08-30 21:00:14,810 DEBUG c.m.m.c.MyStoreProcesses [main] File Size is under the maxfilesize 0
-2015-08-30 21:00:14,810 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s
-2015-08-30 21:00:45,528 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:00:45,540 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:00:45,540 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:00:45,541 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|5123|1|1440947195366"]
-2015-08-30 21:00:45,541 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|5123|1|1440947195366"]
-2015-08-30 21:00:45,542 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s0|5123|1|1440947195366"]
-2015-08-30 21:00:45,542 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:00:45,542 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:00:45,543 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 21:00:45,543 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 21:00:45,543 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:00:45,543 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:00:45,543 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:00:45,817 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:00:45,818 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|5123|1|1440947195366
-2015-08-30 21:00:45,818 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:00:45,818 DEBUG c.m.m.c.MyStoreProcesses [main] File Size is under the maxfilesize 5123
-2015-08-30 21:00:45,818 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:01:30,913 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:01:30,921 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:01:30,922 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:01:30,923 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|512001|1|1440947195366"]
-2015-08-30 21:01:30,923 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|512001|1|1440947195366"]
-2015-08-30 21:01:30,923 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s0|512001|1|1440947195366"]
-2015-08-30 21:01:30,925 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:01:30,925 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:01:30,926 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 21:01:30,926 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 21:01:30,926 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:01:30,926 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:01:30,926 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:01:31,195 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:01:31,195 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|512001|1|1440947195366
-2015-08-30 21:01:31,195 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:01:31,196 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 512001
-2015-08-30 21:01:31,196 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s1
-2015-08-30 21:01:31,196 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s1|0|2|1440948691196
-2015-08-30 21:01:31,218 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s1
-2015-08-30 21:01:56,842 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:01:56,850 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:01:56,851 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:01:56,852 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s1|512001|2|1440948691196","s0|512001|1|1440947195366"]
-2015-08-30 21:01:56,852 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s1|512001|2|1440948691196","s0|512001|1|1440947195366"]
-2015-08-30 21:01:56,853 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s1|512001|2|1440948691196","s0|512001|1|1440947195366"]
-2015-08-30 21:01:56,853 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:01:56,853 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:01:56,853 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 21:01:56,854 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 21:01:56,854 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:01:56,854 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:01:56,854 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:01:57,144 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 2
-2015-08-30 21:01:57,144 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s1|512001|2|1440948691196
-2015-08-30 21:01:57,145 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:01:57,145 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 512001
-2015-08-30 21:01:57,145 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s2
-2015-08-30 21:01:57,145 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s2|0|3|1440948717145
-2015-08-30 21:01:57,165 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s2
-2015-08-30 21:04:16,019 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:04:16,031 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:04:16,031 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:04:16,032 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-sentenceSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key sentenceSettings
-2015-08-30 21:04:16,035 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-[]
-2015-08-30 21:04:16,036 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : []
-2015-08-30 21:04:16,036 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:04:16,037 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:04:16,041 INFO c.m.m.c.MyStoreProcesses [main] sVal 512000
-2015-08-30 21:04:16,042 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-512000
-2015-08-30 21:04:16,042 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:04:16,042 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:04:16,043 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:04:16,392 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:04:16,393 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440948856393
-2015-08-30 21:04:16,422 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:04:16,423 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:04:50,754 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:04:50,762 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:04:50,763 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:04:50,764 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440948856393"]
-2015-08-30 21:04:50,764 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-["s0|0|1|1440948856393"]
-2015-08-30 21:04:50,764 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : ["s0|0|1|1440948856393"]
-2015-08-30 21:04:50,764 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:04:50,764 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:04:50,765 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:04:50,765 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:04:50,765 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:04:50,766 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:04:50,766 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:04:51,046 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:04:51,046 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|0|1|1440948856393
-2015-08-30 21:04:51,046 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:04:51,046 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:04:51,046 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s1
-2015-08-30 21:04:51,047 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s1|0|2|1440948891047
-2015-08-30 21:04:51,066 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s1
-2015-08-30 21:05:15,245 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:05:15,254 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:05:15,255 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:05:15,257 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s1|0|2|1440948891047","s0|0|1|1440948856393"]
-2015-08-30 21:05:15,257 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-["s1|0|2|1440948891047","s0|0|1|1440948856393"]
-2015-08-30 21:05:15,257 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : ["s1|0|2|1440948891047","s0|0|1|1440948856393"]
-2015-08-30 21:05:15,258 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:05:15,258 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:05:15,258 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:05:15,259 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:05:15,259 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:05:15,259 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:05:15,259 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:05:15,565 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 2
-2015-08-30 21:05:15,565 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s1|0|2|1440948891047
-2015-08-30 21:05:15,566 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:05:15,566 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:05:15,566 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s2
-2015-08-30 21:05:15,567 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s2|0|3|1440948915567
-2015-08-30 21:05:15,598 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s2
-2015-08-30 21:38:18,163 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:38:18,176 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:18,176 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:38:18,177 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-sentenceSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key sentenceSettings
-2015-08-30 21:38:18,178 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-[]
-2015-08-30 21:38:18,178 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : []
-2015-08-30 21:38:18,178 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:18,178 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:38:18,180 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:38:18,180 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:38:18,180 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:18,180 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:38:18,181 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:38:18,412 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:38:18,412 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440950898412
-2015-08-30 21:38:18,431 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:18,432 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:38:18,433 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:38:41,762 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:38:41,770 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:41,771 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:38:41,772 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-sentenceSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key sentenceSettings
-2015-08-30 21:38:41,773 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-[]
-2015-08-30 21:38:41,773 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : []
-2015-08-30 21:38:41,774 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:41,774 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:38:41,775 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:38:41,775 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:38:41,775 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:41,775 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:38:41,776 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:38:42,057 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:38:42,058 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440950922058
-2015-08-30 21:38:42,083 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:38:42,084 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:38:42,085 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:40:53,251 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:40:53,259 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:40:53,260 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:40:53,260 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-sentenceSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key sentenceSettings
-2015-08-30 21:40:53,261 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-[]
-2015-08-30 21:40:53,262 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : []
-2015-08-30 21:40:53,262 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:40:53,262 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:40:53,263 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:40:53,263 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:40:53,264 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:40:53,264 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:40:53,264 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:40:53,579 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:40:53,579 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440951053579
-2015-08-30 21:40:53,594 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:40:53,594 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store 
-2015-08-30 21:40:53,595 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:40:53,596 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:48:40,539 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:48:40,547 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:40,548 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:48:40,548 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-sentenceSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key sentenceSettings
-2015-08-30 21:48:40,549 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-[]
-2015-08-30 21:48:40,550 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : []
-2015-08-30 21:48:40,550 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:40,550 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:48:40,550 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:48:40,551 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:48:40,551 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:40,551 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:48:40,551 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:48:40,805 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:48:40,807 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440951520807
-2015-08-30 21:48:40,828 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:48:40,828 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:48:58,056 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:48:58,065 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:58,065 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:48:58,066 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440951520807"]
-2015-08-30 21:48:58,066 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-["s0|0|1|1440951520807"]
-2015-08-30 21:48:58,066 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : ["s0|0|1|1440951520807"]
-2015-08-30 21:48:58,066 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:58,067 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:48:58,067 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:48:58,067 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:48:58,067 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:58,067 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:48:58,068 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:48:58,367 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:48:58,367 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|0|1|1440951520807
-2015-08-30 21:48:58,367 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:48:58,368 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:48:58,368 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s1
-2015-08-30 21:48:58,368 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s1|0|2|1440951538368
-2015-08-30 21:48:58,385 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:48:58,385 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store sentenceSettings=["s1|0|2|1440951538368","s0|0|1|1440951520807"]
-
-2015-08-30 21:48:58,387 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s1
-2015-08-30 21:49:27,608 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:49:27,619 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:27,620 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:49:27,621 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:49:27,622 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-["s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:49:27,622 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : ["s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:49:27,622 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:27,622 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:49:27,623 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:49:27,623 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:49:27,623 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:27,623 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:49:27,623 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:49:27,895 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 2
-2015-08-30 21:49:27,895 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s1|0|2|1440951538368
-2015-08-30 21:49:27,895 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:49:27,896 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:49:27,896 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s2
-2015-08-30 21:49:27,896 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s2|0|3|1440951567896
-2015-08-30 21:49:27,917 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:27,918 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store sentenceSettings=["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-
-2015-08-30 21:49:27,919 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s2
-2015-08-30 21:49:46,485 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:49:46,494 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:46,494 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:49:46,495 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-alphabetSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key alphabetSettings
-2015-08-30 21:49:46,496 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-[]
-2015-08-30 21:49:46,496 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : []
-2015-08-30 21:49:46,496 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:46,496 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:49:46,497 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:49:46,497 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:49:46,498 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:49:46,498 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:49:46,498 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:49:46,775 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:49:46,776 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440951586776
-2015-08-30 21:49:46,793 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:49:46,793 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:50:02,130 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:50:02,137 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:02,138 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:50:02,138 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440951586776"]
-2015-08-30 21:50:02,139 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s0|0|1|1440951586776"]
-2015-08-30 21:50:02,139 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s0|0|1|1440951586776"]
-2015-08-30 21:50:02,139 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:02,139 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:50:02,140 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:50:02,140 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:50:02,140 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:02,140 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:50:02,140 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:50:02,529 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:50:02,531 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|0|1|1440951586776
-2015-08-30 21:50:02,532 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:50:02,532 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:50:02,532 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s1
-2015-08-30 21:50:02,533 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s1|0|2|1440951602532
-2015-08-30 21:50:02,549 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:02,550 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store sentenceSettings=["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 21:50:02,551 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s1
-2015-08-30 21:50:50,550 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:50:50,559 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:50,560 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:50:50,561 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s1|0|2|1440951602532","s0|0|1|1440951586776"]
-2015-08-30 21:50:50,561 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-alphabetSettings, Value:-["s1|0|2|1440951602532","s0|0|1|1440951586776"]
-2015-08-30 21:50:50,561 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property alphabetSettings data : ["s1|0|2|1440951602532","s0|0|1|1440951586776"]
-2015-08-30 21:50:50,561 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:50,562 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:50:50,562 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:50:50,562 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:50:50,563 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:50,563 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:50:50,563 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:50:50,845 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 2
-2015-08-30 21:50:50,845 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s1|0|2|1440951602532
-2015-08-30 21:50:50,846 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:50:50,846 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:50:50,846 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s2
-2015-08-30 21:50:50,846 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s2|0|3|1440951650846
-2015-08-30 21:50:50,875 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:50:50,875 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store sentenceSettings=["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 21:50:50,876 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s2
-2015-08-30 21:51:07,585 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:51:07,597 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:07,598 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:51:07,598 WARN c.m.m.c.MyStoreProcesses [main] Error while trying to read key-wordSettings,from prop file-FILESTOREjava.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key wordSettings
-2015-08-30 21:51:07,599 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-wordSettings, Value:-[]
-2015-08-30 21:51:07,600 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property wordSettings data : []
-2015-08-30 21:51:07,600 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:07,600 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:51:07,601 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:51:07,601 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:51:07,601 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:07,602 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:51:07,602 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:51:07,911 DEBUG c.m.m.c.MyStoreProcesses [main] ArrayList is Empty so creating new
-2015-08-30 21:51:07,911 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s0|0|1|1440951667911
-2015-08-30 21:51:07,937 DEBUG c.m.m.c.MyStoreProcesses [main] Successfully wrote new file property to filestore 
-2015-08-30 21:51:07,938 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s0
-2015-08-30 21:51:43,218 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:51:43,228 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:43,228 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:51:43,229 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s0|0|1|1440951667911"]
-2015-08-30 21:51:43,229 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-wordSettings, Value:-["s0|0|1|1440951667911"]
-2015-08-30 21:51:43,229 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property wordSettings data : ["s0|0|1|1440951667911"]
-2015-08-30 21:51:43,229 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:43,229 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:51:43,230 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:51:43,230 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:51:43,231 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:43,231 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:51:43,231 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:51:43,503 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 1
-2015-08-30 21:51:43,503 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s0|0|1|1440951667911
-2015-08-30 21:51:43,503 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:51:43,503 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:51:43,503 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s1
-2015-08-30 21:51:43,504 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s1|0|2|1440951703504
-2015-08-30 21:51:43,519 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:51:43,520 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 21:51:43,521 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s1
-2015-08-30 21:52:00,600 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:52:00,614 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:52:00,614 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:52:00,615 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:52:00,615 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:52:00,615 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : ["s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:52:00,615 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:52:00,615 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:52:00,616 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:52:00,616 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:52:00,616 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:52:00,616 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:52:00,617 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:52:00,878 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 3
-2015-08-30 21:52:00,879 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s2|0|3|1440951567896
-2015-08-30 21:52:00,879 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:52:00,880 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:52:00,880 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s3
-2015-08-30 21:52:00,880 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s3|0|4|1440951720880
-2015-08-30 21:52:00,907 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:52:00,907 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 21:52:00,909 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s3
-2015-08-30 21:54:23,285 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 21:54:23,294 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:54:23,294 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 21:54:23,295 INFO c.m.m.c.MyStoreProcesses [main] sVal ["s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:54:23,296 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-sentenceSettings, Value:-["s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:54:23,296 DEBUG c.m.m.c.MyStoreProcesses [main] Found Data for filestore property sentenceSettings data : ["s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 21:54:23,296 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:54:23,296 DEBUG c.m.m.c.MyStoreProcesses [main] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 21:54:23,297 INFO c.m.m.c.MyStoreProcesses [main] sVal 0
-2015-08-30 21:54:23,297 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-maxFileSize, Value:-0
-2015-08-30 21:54:23,297 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:54:23,297 INFO c.m.m.c.MyStoreProcesses [main] sVal s
-2015-08-30 21:54:23,298 DEBUG c.m.m.c.MyStoreProcesses [main] Key:-fileNamePrefix, Value:-s
-2015-08-30 21:54:23,566 DEBUG c.m.m.c.MyStoreProcesses [main] Parsed data to Arraylist of size 4
-2015-08-30 21:54:23,566 DEBUG c.m.m.c.MyStoreProcesses [main] Found top most file in file property s3|0|4|1440951720880
-2015-08-30 21:54:23,567 DEBUG c.m.m.c.MyStoreProcesses [main] After split 4
-2015-08-30 21:54:23,567 DEBUG c.m.m.c.MyStoreProcesses [main] File size has crossed the limit 0
-2015-08-30 21:54:23,567 DEBUG c.m.m.c.MyStoreProcesses [main] creating new file with name s4
-2015-08-30 21:54:23,568 DEBUG c.m.m.c.MyStoreProcesses [main] Tostore data s4|0|5|1440951863568
-2015-08-30 21:54:23,589 DEBUG c.m.m.c.MyStoreProcesses [main] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 21:54:23,589 DEBUG c.m.m.c.MyStoreProcesses [main] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 21:54:23,590 INFO c.m.m.c.MyStoreProcesses [main] Returned name is s4
-2015-08-30 23:03:24,206 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 23:03:54,299 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 23:03:54,312 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:54,313 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 23:03:54,313 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:54,313 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:54,313 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:54,314 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:54,314 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 23:03:54,314 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:03:54,314 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:03:54,315 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:54,315 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:03:54,315 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:03:54,653 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 5
-2015-08-30 23:03:54,654 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s4|0|5|1440951863568
-2015-08-30 23:03:54,654 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:03:54,654 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:03:54,654 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s5
-2015-08-30 23:03:54,654 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s5|0|6|1440956034654
-2015-08-30 23:03:54,687 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:54,687 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s5|0|6|1440956034654","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:03:54,690 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s5
-2015-08-30 23:03:55,691 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:55,691 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:55,691 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:55,691 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:55,691 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:55,691 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:03:55,691 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:03:55,692 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:55,692 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:03:55,692 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:03:55,702 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 5
-2015-08-30 23:03:55,702 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s4|0|5|1440951863568
-2015-08-30 23:03:55,702 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:03:55,702 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:03:55,702 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s5
-2015-08-30 23:03:55,703 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s5|0|6|1440956035702
-2015-08-30 23:03:55,705 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:55,705 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s5|0|6|1440956035702","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:03:55,707 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s5
-2015-08-30 23:03:56,712 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:56,712 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:56,713 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:56,713 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:56,713 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:56,713 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:03:56,713 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:03:56,714 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:56,714 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:03:56,714 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:03:56,721 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 5
-2015-08-30 23:03:56,723 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s4|0|5|1440951863568
-2015-08-30 23:03:56,724 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:03:56,725 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:03:56,725 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s5
-2015-08-30 23:03:56,725 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s5|0|6|1440956036725
-2015-08-30 23:03:56,731 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:56,732 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s5|0|6|1440956036725","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:03:56,733 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s5
-2015-08-30 23:03:57,734 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:57,734 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:57,734 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:57,734 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:57,735 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:57,735 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:03:57,735 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:03:57,735 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:57,735 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:03:57,735 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:03:57,737 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 5
-2015-08-30 23:03:57,737 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s4|0|5|1440951863568
-2015-08-30 23:03:57,737 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:03:57,737 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:03:57,737 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s5
-2015-08-30 23:03:57,738 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s5|0|6|1440956037738
-2015-08-30 23:03:57,739 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:57,740 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s5|0|6|1440956037738","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:03:57,740 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s5
-2015-08-30 23:03:58,741 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:58,741 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:58,742 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:58,742 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:03:58,742 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:58,742 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:03:58,742 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:03:58,742 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:58,743 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:03:58,743 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:03:58,745 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 5
-2015-08-30 23:03:58,746 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s4|0|5|1440951863568
-2015-08-30 23:03:58,746 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:03:58,746 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:03:58,746 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s5
-2015-08-30 23:03:58,746 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s5|0|6|1440956038746
-2015-08-30 23:03:58,749 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:03:58,750 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:03:58,751 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s5
-2015-08-30 23:04:30,827 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
-2015-08-30 23:04:30,867 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:30,868 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
-2015-08-30 23:04:30,870 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:30,871 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:30,872 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:30,872 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:30,873 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
-2015-08-30 23:04:30,873 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:04:30,873 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:04:30,874 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:30,874 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:04:30,876 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:04:31,154 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 6
-2015-08-30 23:04:31,154 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s5|0|6|1440956038746
-2015-08-30 23:04:31,154 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:04:31,154 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:04:31,155 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s6
-2015-08-30 23:04:31,155 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s6|0|7|1440956071155
-2015-08-30 23:04:31,172 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:31,173 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s6|0|7|1440956071155","s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:04:31,175 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s6
-2015-08-30 23:04:32,176 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:32,176 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:32,176 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:32,176 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:32,176 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:32,176 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:04:32,177 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:04:32,177 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:32,177 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:04:32,177 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:04:32,183 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 6
-2015-08-30 23:04:32,184 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s5|0|6|1440956038746
-2015-08-30 23:04:32,185 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:04:32,186 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:04:32,186 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s6
-2015-08-30 23:04:32,187 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s6|0|7|1440956072187
-2015-08-30 23:04:32,194 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:32,195 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s6|0|7|1440956072187","s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:04:32,198 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s6
-2015-08-30 23:04:33,200 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:33,201 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:33,201 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:33,201 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:33,201 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:33,202 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:04:33,202 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:04:33,202 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:33,202 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:04:33,202 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:04:33,205 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 6
-2015-08-30 23:04:33,206 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s5|0|6|1440956038746
-2015-08-30 23:04:33,206 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:04:33,206 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:04:33,207 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s6
-2015-08-30 23:04:33,207 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s6|0|7|1440956073207
-2015-08-30 23:04:33,209 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:33,209 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s6|0|7|1440956073207","s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:04:33,210 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s6
-2015-08-30 23:04:34,210 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:34,210 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:34,211 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:34,211 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:34,212 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:34,212 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:04:34,213 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:04:34,213 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:34,213 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:04:34,213 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:04:34,216 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 6
-2015-08-30 23:04:34,217 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s5|0|6|1440956038746
-2015-08-30 23:04:34,217 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:04:34,217 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:04:34,217 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s6
-2015-08-30 23:04:34,218 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s6|0|7|1440956074218
-2015-08-30 23:04:34,219 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:34,220 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s6|0|7|1440956074218","s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:04:34,221 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s6
-2015-08-30 23:04:35,222 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:35,222 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:35,222 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-sentenceSettings, Value:-["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:35,222 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property sentenceSettings data : ["s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-2015-08-30 23:04:35,223 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:35,223 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal 0
-2015-08-30 23:04:35,223 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-maxFileSize, Value:-0
-2015-08-30 23:04:35,223 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:35,223 INFO c.m.m.c.MyStoreProcesses [Thread-2] sVal s
-2015-08-30 23:04:35,223 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-fileNamePrefix, Value:-s
-2015-08-30 23:04:35,225 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Parsed data to Arraylist of size 6
-2015-08-30 23:04:35,225 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found top most file in file property s5|0|6|1440956038746
-2015-08-30 23:04:35,225 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] After split 4
-2015-08-30 23:04:35,225 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File size has crossed the limit 0
-2015-08-30 23:04:35,226 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] creating new file with name s6
-2015-08-30 23:04:35,226 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Tostore data s6|0|7|1440956075226
-2015-08-30 23:04:35,228 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/mymemory/target/test-classes/
-2015-08-30 23:04:35,230 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] all the property to store wordSettings=["s1|0|2|1440951703504","s0|0|1|1440951667911"]
-sentenceSettings=["s6|0|7|1440956075226","s5|0|6|1440956038746","s4|0|5|1440951863568","s3|0|4|1440951720880","s2|0|3|1440951567896","s1|0|2|1440951538368","s0|0|1|1440951520807"]
-alphabetSettings=["s2|0|3|1440951650846","s1|0|2|1440951602532","s0|0|1|1440951586776"]
-
-2015-08-30 23:04:35,232 INFO c.m.m.c.MyStoreProcesses [Thread-2] Returned name is s6
+2015-09-06 15:21:12,852 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
+2015-09-06 15:21:12,862 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:12,862 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/my-memory/target/test-classes/FILESTORE.properties
+2015-09-06 15:21:12,866 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441532892095"]
+2015-09-06 15:21:12,866 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s0|0|1|1441532892095"]
+2015-09-06 15:21:12,866 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s0|0|1|1441532892095"]
+2015-09-06 15:21:12,867 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:12,867 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /E:/Workspace_own/my-memory/target/test-classes/CONFIGURATION.properties
+2015-09-06 15:21:12,867 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-06 15:21:12,868 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-06 15:21:12,868 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:12,868 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:21:12,868 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:21:13,103 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:21:13,103 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441532892095
+2015-09-06 15:21:13,103 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:21:13,104 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File Size is under the maxfilesize 0
+2015-09-06 15:21:13,104 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-06 15:21:14,104 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:14,105 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441532892095"]
+2015-09-06 15:21:14,105 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s0|0|1|1441532892095"]
+2015-09-06 15:21:14,105 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s0|0|1|1441532892095"]
+2015-09-06 15:21:14,106 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:14,106 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-06 15:21:14,106 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-06 15:21:14,107 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:14,108 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:21:14,109 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:21:14,119 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:21:14,120 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441532892095
+2015-09-06 15:21:14,121 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:21:14,122 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File Size is under the maxfilesize 0
+2015-09-06 15:21:14,123 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-06 15:21:15,124 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:15,124 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441532892095"]
+2015-09-06 15:21:15,125 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s0|0|1|1441532892095"]
+2015-09-06 15:21:15,125 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s0|0|1|1441532892095"]
+2015-09-06 15:21:15,126 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:15,127 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-06 15:21:15,128 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-06 15:21:15,129 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:15,135 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:21:15,136 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:21:15,150 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:21:15,151 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441532892095
+2015-09-06 15:21:15,151 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:21:15,151 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File Size is under the maxfilesize 0
+2015-09-06 15:21:15,151 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-06 15:21:16,153 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:16,154 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441532892095"]
+2015-09-06 15:21:16,154 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s0|0|1|1441532892095"]
+2015-09-06 15:21:16,154 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s0|0|1|1441532892095"]
+2015-09-06 15:21:16,155 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:16,155 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-06 15:21:16,155 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-06 15:21:16,156 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:16,156 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:21:16,157 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:21:16,163 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:21:16,166 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441532892095
+2015-09-06 15:21:16,171 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:21:16,171 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File Size is under the maxfilesize 0
+2015-09-06 15:21:16,172 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-06 15:21:17,172 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:17,173 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441532892095"]
+2015-09-06 15:21:17,173 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s0|0|1|1441532892095"]
+2015-09-06 15:21:17,174 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s0|0|1|1441532892095"]
+2015-09-06 15:21:17,174 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:17,174 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-06 15:21:17,175 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-06 15:21:17,175 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:21:17,175 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:21:17,176 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:21:17,180 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:21:17,180 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441532892095
+2015-09-06 15:21:17,181 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:21:17,181 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File Size is under the maxfilesize 0
+2015-09-06 15:21:17,181 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-06 15:23:18,322 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
+2015-09-06 15:23:18,333 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:18,334 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/my-memory/target/test-classes/FILESTORE.properties
+2015-09-06 15:23:18,337 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441532892095"]
+2015-09-06 15:23:18,338 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s0|0|1|1441532892095"]
+2015-09-06 15:23:18,338 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s0|0|1|1441532892095"]
+2015-09-06 15:23:18,338 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:18,339 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /E:/Workspace_own/my-memory/target/test-classes/CONFIGURATION.properties
+2015-09-06 15:23:18,340 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:23:18,340 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:23:18,340 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:18,340 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:23:18,341 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:23:18,653 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:23:18,653 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441532892095
+2015-09-06 15:23:18,653 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:23:18,653 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:23:18,654 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s1
+2015-09-06 15:23:18,654 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s1|0|2|1441533198654
+2015-09-06 15:23:18,675 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:18,676 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s1
+2015-09-06 15:23:19,678 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:19,679 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:19,680 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:19,681 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:19,682 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:19,682 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:23:19,683 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:23:19,683 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:19,684 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:23:19,685 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:23:19,697 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 2
+2015-09-06 15:23:19,699 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s1|0|2|1441533198654
+2015-09-06 15:23:19,700 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:23:19,703 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:23:19,710 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s2
+2015-09-06 15:23:19,713 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s2|0|3|1441533199713
+2015-09-06 15:23:19,716 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:19,716 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s2
+2015-09-06 15:23:20,717 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:20,718 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:20,719 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:20,720 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:20,724 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:20,725 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:23:20,727 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:23:20,728 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:20,734 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:23:20,735 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:23:20,746 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 3
+2015-09-06 15:23:20,747 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s2|0|3|1441533199713
+2015-09-06 15:23:20,748 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:23:20,748 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:23:20,749 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s3
+2015-09-06 15:23:20,749 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s3|0|4|1441533200749
+2015-09-06 15:23:20,752 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:20,752 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s3
+2015-09-06 15:23:21,753 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:21,753 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:21,754 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:21,754 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:21,755 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:21,755 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:23:21,755 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:23:21,756 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:21,756 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:23:21,757 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:23:21,765 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 4
+2015-09-06 15:23:21,766 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s3|0|4|1441533200749
+2015-09-06 15:23:21,766 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:23:21,767 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:23:21,767 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s4
+2015-09-06 15:23:21,767 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s4|0|5|1441533201767
+2015-09-06 15:23:21,770 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:21,771 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s4
+2015-09-06 15:23:22,772 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:22,773 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:22,773 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:22,773 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:23:22,774 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:22,774 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:23:22,775 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:23:22,775 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:22,775 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:23:22,776 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:23:22,784 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 5
+2015-09-06 15:23:22,785 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s4|0|5|1441533201767
+2015-09-06 15:23:22,785 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:23:22,785 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:23:22,786 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s5
+2015-09-06 15:23:22,786 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s5|0|6|1441533202786
+2015-09-06 15:23:22,792 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:23:22,793 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s5
+2015-09-06 15:24:47,732 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
+2015-09-06 15:24:47,741 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:47,741 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/my-memory/target/test-classes/FILESTORE.properties
+2015-09-06 15:24:47,744 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:47,744 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:47,744 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:47,744 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:47,744 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /E:/Workspace_own/my-memory/target/test-classes/CONFIGURATION.properties
+2015-09-06 15:24:47,745 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:24:47,745 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:24:47,745 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:47,745 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:24:47,746 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:24:47,967 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 6
+2015-09-06 15:24:47,967 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s5|0|6|1441533202786
+2015-09-06 15:24:47,968 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:24:47,968 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:24:47,968 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s6
+2015-09-06 15:24:47,968 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s6|0|7|1441533287968
+2015-09-06 15:24:47,986 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:47,988 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s6
+2015-09-06 15:24:48,990 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:48,990 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:48,991 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:48,992 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:48,993 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:48,994 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:24:48,994 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:24:48,994 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:48,995 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:24:48,996 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:24:49,005 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 7
+2015-09-06 15:24:49,006 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s6|0|7|1441533287968
+2015-09-06 15:24:49,007 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:24:49,007 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:24:49,007 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s7
+2015-09-06 15:24:49,007 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s7|0|8|1441533289007
+2015-09-06 15:24:49,010 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:49,014 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s7
+2015-09-06 15:24:50,015 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:50,016 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:50,017 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:50,017 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:50,018 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:50,019 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:24:50,024 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:24:50,039 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:50,040 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:24:50,040 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:24:50,044 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 8
+2015-09-06 15:24:50,045 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s7|0|8|1441533289007
+2015-09-06 15:24:50,045 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:24:50,045 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:24:50,046 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s8
+2015-09-06 15:24:50,046 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s8|0|9|1441533290046
+2015-09-06 15:24:50,048 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:50,050 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s8
+2015-09-06 15:24:51,050 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:51,050 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s8|0|9|1441533290046","s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:51,051 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s8|0|9|1441533290046","s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:51,053 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s8|0|9|1441533290046","s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:51,054 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:51,054 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:24:51,055 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:24:51,056 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:51,057 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:24:51,058 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:24:51,064 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 9
+2015-09-06 15:24:51,065 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s8|0|9|1441533290046
+2015-09-06 15:24:51,066 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:24:51,066 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:24:51,067 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s9
+2015-09-06 15:24:51,067 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s9|0|10|1441533291067
+2015-09-06 15:24:51,074 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:51,075 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s9
+2015-09-06 15:24:52,075 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:52,075 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s9|0|10|1441533291067","s8|0|9|1441533290046","s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:52,076 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-sentenceSettings, Value:-["s9|0|10|1441533291067","s8|0|9|1441533290046","s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:52,078 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property sentenceSettings data : ["s9|0|10|1441533291067","s8|0|9|1441533290046","s7|0|8|1441533289007","s6|0|7|1441533287968","s5|0|6|1441533202786","s4|0|5|1441533201767","s3|0|4|1441533200749","s2|0|3|1441533199713","s1|0|2|1441533198654","s0|0|1|1441532892095"]
+2015-09-06 15:24:52,079 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:52,080 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:24:52,083 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:24:52,084 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:52,085 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:24:52,085 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:24:52,095 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 10
+2015-09-06 15:24:52,096 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s9|0|10|1441533291067
+2015-09-06 15:24:52,096 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:24:52,097 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:24:52,097 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s10
+2015-09-06 15:24:52,098 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s10|0|11|1441533292098
+2015-09-06 15:24:52,104 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:24:52,104 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s10
+2015-09-06 15:26:09,249 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
+2015-09-06 15:26:09,258 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:09,259 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /E:/Workspace_own/my-memory/target/test-classes/FILESTORE.properties
+2015-09-06 15:26:09,262 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:26:09,262 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-[]
+2015-09-06 15:26:09,262 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : []
+2015-09-06 15:26:09,262 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:09,262 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /E:/Workspace_own/my-memory/target/test-classes/CONFIGURATION.properties
+2015-09-06 15:26:09,263 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:26:09,263 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:26:09,263 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:09,264 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:26:09,264 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:26:09,518 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] ArrayList is Empty so creating new
+2015-09-06 15:26:09,519 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s0|0|1|1441533369519
+2015-09-06 15:26:09,535 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:09,536 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Successfully wrote new file property to filestore 
+2015-09-06 15:26:09,536 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-06 15:26:10,536 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:10,537 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s0|0|1|1441533369519"]
+2015-09-06 15:26:10,537 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-["s0|0|1|1441533369519"]
+2015-09-06 15:26:10,537 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : ["s0|0|1|1441533369519"]
+2015-09-06 15:26:10,538 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:10,538 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:26:10,539 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:26:10,539 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:10,540 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:26:10,540 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:26:10,549 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 1
+2015-09-06 15:26:10,551 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s0|0|1|1441533369519
+2015-09-06 15:26:10,552 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:26:10,554 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:26:10,554 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s1
+2015-09-06 15:26:10,554 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s1|0|2|1441533370554
+2015-09-06 15:26:10,557 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:10,558 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s1
+2015-09-06 15:26:11,558 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:11,560 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:11,565 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-["s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:11,567 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : ["s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:11,568 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:11,578 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:26:11,579 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:26:11,579 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:11,579 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:26:11,580 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:26:11,592 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 2
+2015-09-06 15:26:11,592 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s1|0|2|1441533370554
+2015-09-06 15:26:11,593 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:26:11,594 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:26:11,594 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s2
+2015-09-06 15:26:11,594 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s2|0|3|1441533371594
+2015-09-06 15:26:11,597 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:11,597 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s2
+2015-09-06 15:26:12,597 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:12,598 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s2|0|3|1441533371594","s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:12,599 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-["s2|0|3|1441533371594","s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:12,599 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : ["s2|0|3|1441533371594","s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:12,600 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:12,600 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:26:12,601 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:26:12,601 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:12,602 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:26:12,603 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:26:12,609 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 3
+2015-09-06 15:26:12,610 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s2|0|3|1441533371594
+2015-09-06 15:26:12,611 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:26:12,612 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:26:12,613 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s3
+2015-09-06 15:26:12,613 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s3|0|4|1441533372613
+2015-09-06 15:26:12,616 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:12,616 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s3
+2015-09-06 15:26:13,616 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:13,616 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal ["s3|0|4|1441533372613","s2|0|3|1441533371594","s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:13,617 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-["s3|0|4|1441533372613","s2|0|3|1441533371594","s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:13,618 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : ["s3|0|4|1441533372613","s2|0|3|1441533371594","s1|0|2|1441533370554","s0|0|1|1441533369519"]
+2015-09-06 15:26:13,618 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:13,619 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 0
+2015-09-06 15:26:13,619 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-0
+2015-09-06 15:26:13,619 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:13,620 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-06 15:26:13,620 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-06 15:26:13,625 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Parsed data to Arraylist of size 4
+2015-09-06 15:26:13,626 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found top most file in file property s3|0|4|1441533372613
+2015-09-06 15:26:13,626 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] After split 4
+2015-09-06 15:26:13,626 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File size has crossed the limit 0
+2015-09-06 15:26:13,627 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] creating new file with name s4
+2015-09-06 15:26:13,627 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s4|0|5|1441533373627
+2015-09-06 15:26:13,631 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
+2015-09-06 15:26:13,632 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s4

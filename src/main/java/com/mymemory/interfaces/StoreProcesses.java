@@ -1,19 +1,21 @@
 package com.mymemory.interfaces;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.MissingResourceException;
 import java.util.PropertyResourceBundle;
-import java.util.ResourceBundle;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.mymemory.exceptions.DependencyException;
 import com.mymemory.exceptions.WriterException;
+import com.mymemory.main.core.MMResourceBundle;
 import com.mymemory.main.core.MyFileWriter;
 import com.mymemory.main.core.MyStoreProcesses;
+import com.mymemory.interfaces.ResourceBundle;
 
 public abstract class StoreProcesses implements StoreProcessesInterface{
 	
@@ -21,7 +23,6 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 	private static HashMap<String, ResourceBundle> resourceMap = new HashMap<String, ResourceBundle>();
 	private static Object rlock = new Object();
 	private static String PROJECT_HOME = StoreProcesses.class.getClassLoader().getResource("").getPath();
-	public static FileWriter f = null;
 	
 	public abstract RefValues storeData(String data);
 	public abstract String getFileName(FileNameType type) throws DependencyException, WriterException;
@@ -29,10 +30,6 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 	public final void setResourcePath(String path){
 		PROJECT_HOME = path;
 		resourceMap = new HashMap<String, ResourceBundle>();
-	}
-	
-	public void setFileWriter(FileWriter ff){
-		f = ff;
 	}
 	
 	public FileNameType getFileNameType(String data){
@@ -55,7 +52,7 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 			if (resourceMap.containsKey(file))
 				return resourceMap.get(file);
 			logger.debug("Checking for " + PROJECT_HOME + file + ".properties");
-			bundle = new PropertyResourceBundle(new FileInputStream(PROJECT_HOME + file + ".properties"));
+			bundle = new MMResourceBundle(PROJECT_HOME + file + ".properties", true);
 			resourceMap.put(file, bundle);
 		}
 		return bundle;
@@ -71,11 +68,11 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 				sVal = defaultVal;
 		} catch (IOException e) {
 			logger.warn(propFilename+ " file Not Found "+ e);
-			writePropertyToFile(propFilename,key,defaultVal);
+			writeExsistingPropertyToFile(propFilename,key,defaultVal);
 			sVal = defaultVal;
 		} catch (MissingResourceException e){
 			logger.warn("Error while trying to read key-" + key + ",from prop file-" + propFilename + e);
-			writePropertyToFile(propFilename,key,defaultVal);
+			writeExsistingPropertyToFile(propFilename,key,defaultVal);
 			sVal = defaultVal;
 		} catch (Throwable th){
 			logger.warn("Unexpected Problem Occured "+ th);
@@ -87,40 +84,11 @@ public abstract class StoreProcesses implements StoreProcessesInterface{
 	
 	public static int writeExsistingPropertyToFile(String propFilename, String key, String defaultVal){
 		try {
-			if(f==null){
-				logger.error("Writer is Not Set : Use setFileWriter Method to set Writer");
-				return 0;
-			}
-			//resourceMap.remove(key);
 			ResourceBundle bundle = getBundle(propFilename);
-			StringBuilder sb = new StringBuilder();
-			for(String k:bundle.keySet()){
-				sb.append(k);
-				sb.append("=");
-				if(k.equals(key))
-					sb.append(defaultVal);
-				else
-					sb.append(bundle.getString(k));
-				sb.append(System.lineSeparator());
-			}
-			logger.debug("all the property to store "+sb.toString());
-			f.writeToFile(PROJECT_HOME + propFilename + ".properties", sb.toString(), false);
-		} catch (WriterException e) {
+			bundle.setKeyValue(key, defaultVal);
+		} catch (FileNotFoundException e) {
 			logger.debug("Unable To Write to File "+propFilename+" : "+e);
 		} catch (IOException e) {
-			logger.debug("Unable To Write to File "+propFilename+" : "+e);
-		}
-		return 1;
-	}
-	
-	public static int writePropertyToFile(String propFilename, String key, String defaultVal){
-		try {
-			if(f==null){
-				logger.error("Writer is Not Set : Use setFileWriter Method to set Writer");
-				return 0;
-			}
-			f.writeToFile(PROJECT_HOME + propFilename + ".properties", key+"="+defaultVal);
-		} catch (WriterException e) {
 			logger.debug("Unable To Write to File "+propFilename+" : "+e);
 		}
 		return 1;
