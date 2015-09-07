@@ -352,3 +352,110 @@
 2015-09-06 15:26:13,627 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s4|0|5|1441533373627
 2015-09-06 15:26:13,631 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /E:/Workspace_own/my-memory/target/test-classes/
 2015-09-06 15:26:13,632 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s4
+2015-09-07 10:32:11,015 DEBUG c.m.m.c.MyStoreProcesses [main] Going to run the Store Process
+2015-09-07 10:32:11,024 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:11,025 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:11,027 WARN c.m.m.c.MyStoreProcesses [Thread-2] FILESTORE file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:11,027 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:11,027 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:11,028 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:11,028 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Key:-wordSettings, Value:-[]
+2015-09-07 10:32:11,028 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Found Data for filestore property wordSettings data : []
+2015-09-07 10:32:11,028 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:11,028 DEBUG c.m.m.c.MyStoreProcesses [Thread-2] Checking for /D:/Workspace_own/mymemory/target/test-classes/CONFIGURATION.properties
+2015-09-07 10:32:11,029 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-07 10:32:11,029 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-07 10:32:11,029 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:11,030 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-07 10:32:11,030 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-07 10:32:11,273 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] ArrayList is Empty so creating new
+2015-09-07 10:32:11,274 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s0|0|1|1441602131274
+2015-09-07 10:32:11,298 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:11,298 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:11,298 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:11,298 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Successfully wrote new file property to filestore 
+2015-09-07 10:32:11,299 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-07 10:32:12,299 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:12,299 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:12,300 WARN c.m.m.c.MyStoreProcesses [MMResourceBundle] FILESTORE file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:12,301 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:12,301 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:12,302 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:12,302 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-[]
+2015-09-07 10:32:12,303 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : []
+2015-09-07 10:32:12,303 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:12,304 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-07 10:32:12,304 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-07 10:32:12,304 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:12,304 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-07 10:32:12,305 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-07 10:32:12,311 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] ArrayList is Empty so creating new
+2015-09-07 10:32:12,311 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s0|0|1|1441602132311
+2015-09-07 10:32:12,314 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:12,315 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:12,315 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:12,315 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Successfully wrote new file property to filestore 
+2015-09-07 10:32:12,315 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-07 10:32:13,316 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:13,316 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:13,317 WARN c.m.m.c.MyStoreProcesses [MMResourceBundle] FILESTORE file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:13,317 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:13,318 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:13,318 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:13,318 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-[]
+2015-09-07 10:32:13,319 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : []
+2015-09-07 10:32:13,319 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:13,319 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-07 10:32:13,319 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-07 10:32:13,320 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:13,320 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-07 10:32:13,320 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-07 10:32:13,324 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] ArrayList is Empty so creating new
+2015-09-07 10:32:13,324 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s0|0|1|1441602133324
+2015-09-07 10:32:13,327 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:13,328 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:13,329 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:13,329 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Successfully wrote new file property to filestore 
+2015-09-07 10:32:13,329 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-07 10:32:14,329 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:14,329 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:14,329 WARN c.m.m.c.MyStoreProcesses [MMResourceBundle] FILESTORE file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:14,329 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:14,329 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-[]
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : []
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:14,330 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:14,330 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-07 10:32:14,330 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-07 10:32:14,332 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] ArrayList is Empty so creating new
+2015-09-07 10:32:14,332 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s0|0|1|1441602134332
+2015-09-07 10:32:14,334 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:14,334 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:14,334 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:14,334 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Successfully wrote new file property to filestore 
+2015-09-07 10:32:14,334 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
+2015-09-07 10:32:15,334 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:15,334 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:15,335 WARN c.m.m.c.MyStoreProcesses [MMResourceBundle] FILESTORE file Not Found java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:15,336 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:15,337 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:15,338 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:15,338 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-wordSettings, Value:-[]
+2015-09-07 10:32:15,338 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Found Data for filestore property wordSettings data : []
+2015-09-07 10:32:15,339 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:15,340 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal 512000
+2015-09-07 10:32:15,340 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-maxFileSize, Value:-512000
+2015-09-07 10:32:15,340 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:15,341 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] sVal null
+2015-09-07 10:32:15,341 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Key:-fileNamePrefix, Value:-s
+2015-09-07 10:32:15,345 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] ArrayList is Empty so creating new
+2015-09-07 10:32:15,345 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Tostore data s0|0|1|1441602135345
+2015-09-07 10:32:15,348 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] File path /D:/Workspace_own/mymemory/target/test-classes/
+2015-09-07 10:32:15,349 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Checking for /D:/Workspace_own/mymemory/target/test-classes/FILESTORE.properties
+2015-09-07 10:32:15,349 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Unable To Write to File FILESTORE : java.io.FileNotFoundException: D:\Workspace_own\mymemory\target\test-classes\FILESTORE.properties (The system cannot find the file specified)
+2015-09-07 10:32:15,350 DEBUG c.m.m.c.MyStoreProcesses [MMResourceBundle] Successfully wrote new file property to filestore 
+2015-09-07 10:32:15,350 INFO c.m.m.c.MyStoreProcesses [MMResourceBundle] Returned name is s0
